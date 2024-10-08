@@ -58,7 +58,7 @@ The dataset for this project, sourced from Kaggle, consists of 19,000 MRI brain 
 YOLOv8n was chosen for its balance of speed and accuracy, ideal for real-time tumor detection in MRI images.
 
 ### Training Process
-The model was trained on 19,000 MRI images, optimized for high performance.
+The model was trained on 20,000 MRI images, optimized for high performance.
 
 ### Evaluation Metrics
 After training, the model’s accuracy was evaluated using several metrics:
@@ -69,5 +69,17 @@ After training, the model’s accuracy was evaluated using several metrics:
 | Precision  | 1.000  |
 | Recall     | 0.839  |
 | F1 Score   | 0.913  |
+
+## GUI Functionality for Tumor Detection
+
+This project includes a user-friendly **GUI interface** that allows users to upload an MRI image and check for the presence of a tumor.
+
+### Key Features:
+- **Upload Image**: Click the upload button to select an MRI image from your device.
+- **Real-Time Detection**: The model processes the uploaded image and detects tumors, drawing a bounding box around any detected tumor regions.
+- **Accuracy Display**: A confidence score is displayed above the bounding box to indicate detection accuracy.
+
+Simply upload an image and let the model handle the rest!
+
 
 
